@@ -15,7 +15,7 @@ h1, h2, h3 {
     color: #c1c1c1;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: hsla(273, 100%, 50%, 0.54);
+    background-color: hsla(273, 100%, 50%, 0.478);
     font-size: 32px;
     font-family: .9em;
     border-radius: 9px;
@@ -76,7 +76,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 10px 10px 20px 20px;
-    background-color: rgba(153, 0, 255, 0.54);
+    background-color: hotpink;
     color: #ffffff;
 }
 
@@ -95,6 +95,45 @@ header {
 #sobre .botao {
     background-color: #f1f1f1ff;
     color: #c1c1c1;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+
+form > input {
+    flex: 1 1 10ch;
+    margin: .5rem;
+}
+
+
+form > input[type="email"] {
+    flex: 3 1 30ch;
+    margin: .5rem;
+}
+
+
+input {
+    border: none;
+    background: hsl(0, 0%, 93%);
+    border-radius: 10px;
+    padding: .75rem 1rem;
+}
+
+input[type="submit"] {
+    background: hotpink;
+    color: #ffffff;
 }
 
 
