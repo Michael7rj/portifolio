@@ -1,11 +1,13 @@
 body {
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Fira Sans', sans-serif;
     color: #c1c1c1;
+    margin: 2px;
+    font-size: x-large;
 }
 
 
 h1, h2, h3 {
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Fira Sans', sans-serif;
     color: #c1c1c1;
 
 }
@@ -24,7 +26,7 @@ h1, h2, h3 {
 nav {
     display: flex;
     align-items: center;
-    background-color: hsl(242deg 100% 50% / 54%);
+    background-color: rgba(73, 17, 90, 0.633);
 }
 
 nav > a {
@@ -65,7 +67,8 @@ header {
     background-position: center;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    margin: 6px;
 }
 
 
@@ -76,7 +79,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 10px 10px 20px 20px;
-    background-color: hotpink;
+    background-color: rgba(73, 17, 90, 0.633);
     color: #ffffff;
 }
 
@@ -132,7 +135,7 @@ input {
 }
 
 input[type="submit"] {
-    background: hotpink;
+    background: rgba(73, 17, 90, 0.633);
     color: #ffffff;
 }
 
@@ -153,6 +156,11 @@ input[type="submit"] {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: hsl(242deg 100% 50% / 54%);
+    background-color: rgba(73, 17, 90, 0.633);
     color: hwb(0deg 100% 0%);
+}
+
+
+i {
+    color: black;
 }
